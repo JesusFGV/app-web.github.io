@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexiones</title>
+    <style>
+        body {
+            background-color: #d4ebf7;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            width: 350px;
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #00296b;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        h3, h4 {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        button {
+            display: inline-block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        button:hover {
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+            transform: scale(1.02);
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+        }
+        .home-btn {
+            background: #00296b;
+            color: white;
+            margin-top: 20px;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        .btnn {
+            background: #00b4d8;
+            color: white;
+            border-radius: 8px;
+            margin: 5px 0;
+        }
+        .btnn:hover {
+            background: #0077b6;
+            transform: translateY(-2px);
+        }
+        .device-list {
+            background: transparent;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>CONEXIONES</h2>
+        <h3>DIRECTAMENTE</h3>
+        <a href="listaApps.html">
+            <button>MI DISPOSITIVO</button>
+        </a>
+        <h4>CONECTAR A OTRO DISPOSITIVO POR MEDIO DE BLUETOOTH</h4>
+
+        <div class="device-list">
+            <a href="listaApps.html">
+                <button class="btnn">Samsung Galaxy A50</button>
+            </a>
+        </div>
+        <div class="device-list">
+            <a href="listaApps.html">
+                <button class="btnn">Samsung Galaxy A55</button>
+            </a>
+        </div>
+        <div class="device-list">
+            <a href="listaApps.html">
+                <button class="btnn">Samsung Galaxy A14</button>
+            </a>
+        </div>
+        <a href="index.html">
+            <button class="home-btn">Inicio</button>
+        </a>
+    </div>
+</body>
+</html>
