@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Producto</label><br>
+    <input type="text" id="iProducto"><br>
+    <label>Cantidad</label><br>
+    <input type="number" id="iCantidad"><br>
+    <label>Precio</label><br>
+    <input type="number" id="iPrecio"><br><br>
+
+    <button onclick="agregarCarrito();">Agregar a Carrito</button>
+    <hr>
+    <h2>Detalles:</h2><br>
+    <input type="text" placeholder="Producto" id="iProd" readonly>
+    <input type="text" placeholder="Cantidad" id="iCant" readonly>
+    <input type="text" placeholder="Precio" id="iPre" readonly>
+    <input type="text" placeholder="Total" id="iTotal" readonly>
+    <hr>
+    <input type="text" id="iDescuento" placeholder="Codigo Descuento"><br><br>
+    <button onclick="cupon();">Aplicar Cupon</button>
+</body>
+</html>
